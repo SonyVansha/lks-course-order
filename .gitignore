@@ -132,3 +132,9 @@ serviceAccountKey*
 ./serviceAccountKey.json
 
 report/*
+
+# Environment
+.env
+.env.development
+.env.testing
+.env.production

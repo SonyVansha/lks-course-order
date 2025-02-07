@@ -6,7 +6,7 @@
    "scripts": {
       "test": "NODE_ENV=testing PORT=9000 MOCHA_FILE=./report/test-result.xml mocha --timeout 30000 --exit --reporter mocha-junit-reporter",
       "testdev": "NODE_ENV=testing PORT=9000 mocha --timeout 30000 --exit",
-      "dev": "NODE_ENV=development PORT=8000 nodemon app.js",
+      "dev": "cross-env NODE_ENV=testing PORT=8000 nodemon app.js",
       "start": "NODE_ENV=production PORT=8000 node app.js"
    },
    "author": "Betuah Anugerah",
@@ -26,6 +26,7 @@
       "compression": "^1.7.4",
       "cookie-parser": "^1.4.6",
       "cors": "^2.8.5",
+      "cross-env": "^7.0.3",
       "csurf": "^1.11.0",
       "dotenv": "^16.0.1",
       "dynamo-sequelize": "^3.1.0",
