@@ -122,6 +122,9 @@ This is the example of config.json file for ECR credential:
 ```
 > **Note:** Dont forget to give permission aws beanstalk to get object from S3. You can create the ECR auth token with aws cli command `aws ecr get-login-password --region {{ECR_REGION}}` and copy the result to config.json file.
 
+## Postman Documentation API: 
+### [link](https://documenter.getpostman.com/view/32005248/2sAYX8Kh2Q)
+
 ## License
 
 MIT
